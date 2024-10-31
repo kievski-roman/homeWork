@@ -23,11 +23,27 @@ var_dump(true == 1);
 var_dump(false === 0);
 
 print_r("</br>");
-var_dump(strlen('three'), strlen('три'));
+$str1 = "three";
+$str2 = "три";
+
+if (strlen($str1) > mb_strlen($str2)) {
+    echo "$str1 більше";
+} elseif (strlen($str1) < mb_strlen($str2)) {
+    echo "$str2 більше";
+} else {
+    echo "Строки однакові";
+}
+print_r("</br>");
 
 $a =125*13+7;
 $b =223+28*2;
-print_r("</br>");
+if($a > b){
+  echo "$a більше";
+}elseif ($a < $b){
+  echo "$b більше";
+}else{
+   echo "Oднакові";
+}
 var_dump( $a , $b);
 ?>
 
