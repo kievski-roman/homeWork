@@ -1,5 +1,5 @@
 <?php 
-$numbers1 = 7 / 3;
+$numbers1 = 7 % 3;
 print_r($numbers1. "</br>") ;
 
 $numbers2 = intval(7 / 7.15) ;
