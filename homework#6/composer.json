@@ -1,0 +1,23 @@
+{
+    "name": "rkiev/mysite",
+    "description": "my first composer",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "App\\": "App/"
+        }
+    },
+    "authors": [
+        {
+            "name": "roman"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "config": { 
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true 
+    }
+}
